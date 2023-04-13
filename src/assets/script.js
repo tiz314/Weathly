@@ -20,7 +20,7 @@ function weatherRequest() { // requests for data and load them
 	const country = input.split(",")[1];
 
 
-	const url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "," + country + "&APPID=ANTANI&units=metric";
+	const url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "," + country + "&APPID="+properties.APIKey+"&units=metric";
 	const xhr = new XMLHttpRequest();
 	xhr.open("GET", url);
 	xhr.onload = function (data, status) {
