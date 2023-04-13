@@ -1,0 +1,30 @@
+*{
+    color: #03312e;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#home{
+    background-image: url("./images/home.webp");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#footer{
+    background-color: #c7c8d0;
+}
+
+#weatherIcon{
+    width: 7vh;
+}
+
+#tempIcon, #moistureIcon, #pressureIcon{
+    width: 2rem;
+}
+
+.dataContainer{
+    border-radius: 5px;
+    backdrop-filter: blur(8px);
+    margin: 1rem;
+    padding: 0.3rem;
+}
