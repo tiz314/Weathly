@@ -23,16 +23,16 @@
                         class="highlightTitle">real-time</span> weather data</h1>
             </div>
             <div class="row ps-5 pe-5">
-                <form class="row g-3" action="./earth" onsubmit="return formCheck()">
+                <div class="row g-3">
                     <div class="col-auto">
                         <input type="text" class="form-control p-3" name="city" id="cityInputText"
                             placeholder="Milan, IT">
                     </div>
                     <div class="col-auto">
-                        <button type="submit" class="btn border border-dark mb-3 p-3"
-                            id="cityInputSubmit">Search</button>
+                        <button class="btn border border-dark mb-3 p-3"
+                            id="cityInputSubmit" onclick="weatherRequest()">Search</button>
                     </div>
-                </form>
+                </div>
             </div>
 
         </div>
